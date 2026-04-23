@@ -7,7 +7,6 @@ def main():
         print("Uso: python main.py <caminho_do_arquivo>")
         return
 
-    # Mapeamento de índices para nomes (UF)
     ufs = [
         "AC", "AL", "AM", "AP", "BA", "CE", "DF", "ES", "GO", "MA", 
         "MG", "MS", "MT", "PA", "PB", "PE", "PI", "PR", "RJ", "RN", 
