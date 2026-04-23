@@ -3,9 +3,9 @@
 Este projeto implementa o algoritmo **DSatur** (Degree Saturation) para resolver o problema de coloração de vértices aplicado ao mapa político do Brasil. O objetivo é atribuir uma cor a cada estado de modo que estados vizinhos não compartilhem a mesma cor, respeitando as restrições de um grafo planar e buscando o número cromático mínimo através de uma heurística.
 
 # Resolução de Problemas com Grafos
-Orientador: Prof. Me. [Nome do Professor]
+Orientador: Prof. Me. Ricardo Carubbi
 
-Alunos: [Seu Nome Completo]
+Alunos: Davi Dias, João Pedro Brasil, Lucas Lustosa
 
 Link do vídeo: [Apresentação do DSatur no Youtube](link_aqui)
 
