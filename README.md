@@ -7,7 +7,7 @@ Orientador: Prof. Me. Ricardo Carubbi
 
 Alunos: Davi Dias, João Pedro Brasil, Lucas Lustosa
 
-Link do vídeo: [Apresentação do DSatur no Youtube](link_aqui)
+Link do vídeo: [Apresentação do DSatur no Youtube](https://youtu.be/0x8sJ6eEY5I)
 
 ---
 
