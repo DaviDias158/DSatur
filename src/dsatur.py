@@ -2,7 +2,7 @@ class DSatur:
     def __init__(self, graph):
         self.graph = graph
         self.V = graph.V
-        self.colors = [-1] * self.V  # -1 significa não colorido
+        self.colors = [-1] * self.V  
         self.coloring_order = []
 
     def get_saturation_degree(self, v):
@@ -14,7 +14,6 @@ class DSatur:
         return len(neighbor_colors)
 
     def solve(self):
-        # 1. Colorir o vértice de maior grau primeiro
         v_start = -1
         max_deg = -1
         for v in range(self.V):
@@ -27,9 +26,7 @@ class DSatur:
         uncolored = set(range(self.V))
         uncolored.remove(v_start)
 
-        # 2. Loop principal
         while uncolored:
-            # Escolher vértice que maximiza DS(v), empate por grau
             best_v = -1
             max_ds = -1
             max_deg_tie = -1
@@ -47,7 +44,6 @@ class DSatur:
                         max_deg_tie = deg
                         best_v = v
             
-            # Encontrar a menor cor disponível
             forbidden_colors = set()
             for w in self.graph.adj[best_v]:
                 if self.colors[w] != -1:
